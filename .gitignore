@@ -3,10 +3,16 @@
 
 # Log file
 *.log
-
+# Xcode
+xcuserdata/
+project.xcworkspace/
+DerivedData/
 # BlueJ files
 *.ctxt
-
+# CocoaPods
+Podfile.lock
+Pods
+*.xcworkspace
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
