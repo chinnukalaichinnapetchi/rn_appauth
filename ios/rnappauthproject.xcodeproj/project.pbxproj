@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* rnappauthprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnappauthprojectTests.m */; };
+		0C48DD738D3BEB3F613A95EA /* libPods-rnappauthproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16E38A971B9EDD95664E18 /* libPods-rnappauthproject.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		45A968D556DD3DCC7EB99095 /* libPods-rnappauthproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0357F0861EE34097633BD48F /* libPods-rnappauthproject.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C35088E62ABAF70B00727DC3 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = C35088E52ABAF70B00727DC3 /* main.jsbundle */; };
 		C352A7B02ABC087E000B1024 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FAF1A68108700A75B9A /* AppDelegate.h */; };
-		E6107E1E6B82D146FF162DD0 /* libPods-rnappauthproject-rnappauthprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC45B9F4189D3E3C8015BAF /* libPods-rnappauthproject-rnappauthprojectTests.a */; };
+		C3CDAF832ABD60E800F517BA /* main.jsbundle in Sources */ = {isa = PBXBuildFile; fileRef = C35088E52ABAF70B00727DC3 /* main.jsbundle */; };
+		C3CDAFB42ABDB1B800F517BA /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = C3CDAFB22ABDB17E00F517BA /* Fonts */; };
+		D7C0C811CD52D60625B4227C /* libPods-rnappauthproject-rnappauthprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D4E63B6C09DE9B3F53442C /* libPods-rnappauthproject-rnappauthprojectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,6 @@
 		00E356EE1AD99517003FC87E /* rnappauthprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnappauthprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* rnappauthprojectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnappauthprojectTests.m; sourceTree = "<group>"; };
-		0357F0861EE34097633BD48F /* libPods-rnappauthproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnappauthproject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* rnappauthproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnappauthproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnappauthproject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rnappauthproject/AppDelegate.mm; sourceTree = "<group>"; };
@@ -44,9 +44,14 @@
 		5B7EB9410499542E8C5724F5 /* Pods-rnappauthproject-rnappauthprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnappauthproject-rnappauthprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnappauthproject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rnappauthproject-rnappauthprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnappauthproject-rnappauthprojectTests.release.xcconfig"; path = "Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests.release.xcconfig"; sourceTree = "<group>"; };
-		BFC45B9F4189D3E3C8015BAF /* libPods-rnappauthproject-rnappauthprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnappauthproject-rnappauthprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4DA3222188A18DA1955E5D /* Pods-rnappauthprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnappauthprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-rnappauthprojectTests/Pods-rnappauthprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA16E38A971B9EDD95664E18 /* libPods-rnappauthproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnappauthproject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35088E52ABAF70B00727DC3 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		C3CDAF892ABD78BF00F517BA /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		C3CDAFB22ABDB17E00F517BA /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		E8D4E63B6C09DE9B3F53442C /* libPods-rnappauthproject-rnappauthprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnappauthproject-rnappauthprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7F0A01845E0FF8FA5FF7B9F /* Pods-rnappauthprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnappauthprojectTests.release.xcconfig"; path = "Target Support Files/Pods-rnappauthprojectTests/Pods-rnappauthprojectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6107E1E6B82D146FF162DD0 /* libPods-rnappauthproject-rnappauthprojectTests.a in Frameworks */,
+				D7C0C811CD52D60625B4227C /* libPods-rnappauthproject-rnappauthprojectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A968D556DD3DCC7EB99095 /* libPods-rnappauthproject.a in Frameworks */,
+				0C48DD738D3BEB3F613A95EA /* libPods-rnappauthproject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +108,10 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3CDAF892ABD78BF00F517BA /* libswiftWebKit.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				0357F0861EE34097633BD48F /* libPods-rnappauthproject.a */,
-				BFC45B9F4189D3E3C8015BAF /* libPods-rnappauthproject-rnappauthprojectTests.a */,
+				AA16E38A971B9EDD95664E18 /* libPods-rnappauthproject.a */,
+				E8D4E63B6C09DE9B3F53442C /* libPods-rnappauthproject-rnappauthprojectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +126,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C3CDAFB22ABDB17E00F517BA /* Fonts */,
 				13B07FAE1A68108700A75B9A /* rnappauthproject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rnappauthprojectTests */,
@@ -148,6 +155,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-rnappauthproject.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-rnappauthproject-rnappauthprojectTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-rnappauthproject-rnappauthprojectTests.release.xcconfig */,
+				9A4DA3222188A18DA1955E5D /* Pods-rnappauthprojectTests.debug.xcconfig */,
+				F7F0A01845E0FF8FA5FF7B9F /* Pods-rnappauthprojectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,8 +172,8 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				53F7F2CF1F8C4D62F934A6B9 /* [CP] Copy Pods Resources */,
+				1BB759FCE7C096232A49630B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,8 +195,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				643A9017134D96E4D9BC86B4 /* [CP] Copy Pods Resources */,
+				63423C2A017B0125E1BF765B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CDAFB42ABDB1B800F517BA /* Fonts in Resources */,
 				C35088E62ABAF70B00727DC3 /* main.jsbundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
@@ -269,7 +279,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		1BB759FCE7C096232A49630B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F7F2CF1F8C4D62F934A6B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63423C2A017B0125E1BF765B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,6 +328,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643A9017134D96E4D9BC86B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -330,57 +391,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject/Pods-rnappauthproject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnappauthproject-rnappauthprojectTests/Pods-rnappauthproject-rnappauthprojectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,9 +425,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CDAF832ABD60E800F517BA /* main.jsbundle in Sources */,
 				C352A7B02ABC087E000B1024 /* AppDelegate.h in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -520,6 +534,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -594,12 +612,14 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -657,12 +677,14 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

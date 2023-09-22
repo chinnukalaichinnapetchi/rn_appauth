@@ -106,14 +106,14 @@ const App = () => {
       console.log("mmmmmmmmmmm");
 
       // Refresh token
-      const refreshedState = await refresh(config, {
-        refreshToken: result.refreshToken
-      });
+      // const refreshedState = await refresh(config, {
+      //   refreshToken: result.refreshToken
+      // });
 
-      // Revoke token
-      await revoke(config, {
-        tokenToRevoke: refreshedState.refreshToken
-      });
+      // // Revoke token
+      // await revoke(config, {
+      //   tokenToRevoke: refreshedState.refreshToken
+      // });
 
       console.log('Access Token:', result);
 
@@ -142,12 +142,18 @@ const App = () => {
   };
   const facebooklogin = async () => {
 
-    const authState = await authorize(facebookconfig);
+    
+    AppAuth.authorize(facebookconfig).then((res) => {
+      console.log(res, "resssss")
+    })
 
   };
   const twitterlogin = async () => {
 
-    const authState = await authorize(twitterconfig);
+   
+    AppAuth.authorize(twitterconfig).then((res) => {
+      console.log(res, "resssss")
+    })
 
   };
 
@@ -163,8 +169,8 @@ const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar />
-      <ScrollView >
-        <View style={{ alignItems: 'center', justifyContent: 'center', marginVertical: '50%' }}>
+      <ScrollView  style={{backgroundColor:'red'}}>
+      <View style={{ alignItems: 'center', justifyContent: 'center', marginVertical: '50%' }}>
           <SocialIcon
             type='google'
             onPress={() => googleSignIn()}
@@ -192,7 +198,7 @@ const App = () => {
                         type='apple'
                     /> */}
 
-        </View>
+        </View> 
 
       </ScrollView>
     </SafeAreaView>
